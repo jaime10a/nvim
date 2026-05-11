@@ -1,5 +1,4 @@
-require('settings') -- mapleader needs to be defined before lazy.nvim startup
-require('plugins')
-require('theme')
-require('mappings')
-require('functions')
+require("config.options")
+require("config.keymaps")
+require("config.autocmds")
+require("config.lazy")
